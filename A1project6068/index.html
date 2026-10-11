@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Learning Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <h1>My Learning Portfolio</h1>
+    <p>CS100 Assignment 1</p>   
+    </header>
+    <main>
+        <section id="about me">
+            <h2>About Me</h2>
+            <div class="profile-container">
+                <img src="media/profile.jpg" alt="รูปโปรไฟล์นักศึกษา" class="profile-img">    
+                <div>
+                    <p><strong>ชื่อ-นามสกุล:</strong> นาย ธราเทพ เอื้อตระกูล</p>
+                    <p><strong>รหัสนักศึกษา:</strong> 6909546068</p>
+                    <p><strong>เกี่ยวกับฉัน:</strong> นักศึกษาสาขาวิทยาการคอมพิวเตอร์ สนใจในด้านการพัฒนาเว็บ เวลาว่างชอบฟังเพลง</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="what-i-built">
+            <h2>What I Built</h2>
+            <p>งาน Assignment 1 นี้ คือเว็บไซต์ <strong>Learning Portfolio แบบหน้าเดียว (Single-page Website)</strong> ที่รวบรวมข้อมูลส่วนตัว รายละเอียดการพัฒนางาน และการสะท้อนความคิดเกี่ยวกับการเรียนรู้ HTML/CSS</p>
+            
+            <h3>องค์ประกอบของเว็บไซต์</h3>
+             <ul>
+                <li>โครงสร้างใช้ Semantic HTML (<code style="color:red">&lt;header&gt;</code>, <code style="color:red">&lt;main&gt;</code>, <code style="color:red">&lt;section&gt;</code>)</li>
+                <li>การจัดรูปแบบและวาง Layout ด้วย External CSS</li>
+                <li>การแทรกสื่อประกอบ (รูปภาพ ลิงก์ และรายการ)</li>
+            </ul>
+
+            <div class="concept-box">
+                <h3>การทำงานของ Client และ Server ขณะเปิดเว็บจากเครื่องตนเอง</h3>
+                <p>ขณะที่เปิดไฟล์ <code>index.html</code> จากเครื่องตนเองผ่าน Browser (เช่น Double click ไฟล์ขึ้นมา) <strong>มีเพียง Client เท่านั้นที่เกิดขึ้น แต่ยังไม่มี Server เกิดขึ้น</strong></p>
+                <p><strong>เหตุผล:</strong> Web Browser ทำหน้าที่เป็น Client อ่านและแปลงไฟล์ <code>.html</code> และ <code>.css</code> ที่เก็บบน Disk ท้องถิ่น (Local File System ผ่านโปรโตคอล <code>file:///</code>) มาแสดงผลโดยตรง ไม่ได้มีการส่ง Request ไปยัง Web Server ผ่านเครือข่าย (HTTP/HTTPS Protocol) แต่อย่างใด</p>
+            </div>   
+        </section>
+
+        <section id="how-i-built">
+            <h2>How I Built It</h2>
+            <p>เขียนโค้ด HTML ตาม Semantic structure จากนั้นแยกเขียนไฟล์ CSS เพื่อตกแต่งความสวยงาม และทดสอบการแสดงผลบน Web Browser</p>
+            
+            <h3>เครื่องมือที่ใช้</h3>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Google Chrome</li>
+            </ul>
+        </section>
+
+        <section id="reflection">
+            <h2>Reflection</h2>
+            <ol>
+                <li>
+                    <strong>ปัญหาหรือความท้าทายที่พบ และวิธีแก้ไข:</strong>
+                    <p>เขียน path ของไฟล์รูปภาพไม่ถูกต้อง ทำให้ไฟล์ไม่แสดงผล</p>
+                </li>
+                <li>
+                    <strong>สิ่งที่ได้เรียนรู้จากการทำงานนี้:</strong>
+                    <p>ได้เรียนรู้การใช้ Semantic HTML และการแยกไฟล์ CSS ออกมาเพื่อจัดรูปแบบเว็บไซต์</p>
+                </li>
+            </ol>
+        </section>
+
+    </main>
+</body>
+</html>
